@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{211E1597-6C2C-87A6-1E07-A5D7EA93F705}") = "Audio Spectrum Data Sample", "Assembly-CSharp-firstpass.csproj", "{8F4D405A-C4A5-E508-C9E0-212CC88FB5D6}"
+EndProject
+Project("{211E1597-6C2C-87A6-1E07-A5D7EA93F705}") = "Audio Spectrum Data Sample", "Assembly-CSharp.csproj", "{20DA9982-08DE-40A3-A2C3-4377F20D6DB2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F4D405A-C4A5-E508-C9E0-212CC88FB5D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F4D405A-C4A5-E508-C9E0-212CC88FB5D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F4D405A-C4A5-E508-C9E0-212CC88FB5D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F4D405A-C4A5-E508-C9E0-212CC88FB5D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20DA9982-08DE-40A3-A2C3-4377F20D6DB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20DA9982-08DE-40A3-A2C3-4377F20D6DB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20DA9982-08DE-40A3-A2C3-4377F20D6DB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20DA9982-08DE-40A3-A2C3-4377F20D6DB2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
