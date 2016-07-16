@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{37E55C94-18C2-B06B-A393-F445D68D6385}") = "Mircophone Demo", "Assembly-CSharp-firstpass.csproj", "{B10509EE-5C5D-B4C5-3025-F4CEA6E6CD1A}"
+EndProject
+Project("{37E55C94-18C2-B06B-A393-F445D68D6385}") = "Mircophone Demo", "Assembly-CSharp.csproj", "{C9FDF859-AC67-B2D6-F28A-39E8A6607B4B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B10509EE-5C5D-B4C5-3025-F4CEA6E6CD1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B10509EE-5C5D-B4C5-3025-F4CEA6E6CD1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B10509EE-5C5D-B4C5-3025-F4CEA6E6CD1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B10509EE-5C5D-B4C5-3025-F4CEA6E6CD1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9FDF859-AC67-B2D6-F28A-39E8A6607B4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9FDF859-AC67-B2D6-F28A-39E8A6607B4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9FDF859-AC67-B2D6-F28A-39E8A6607B4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9FDF859-AC67-B2D6-F28A-39E8A6607B4B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

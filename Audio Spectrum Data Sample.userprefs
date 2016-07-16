@@ -1,8 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/AudioVisualizer.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Assets/Scripts/AudioVisualizer.cs" Line="20" Column="3" />
+      <File FileName="Assets/Scripts/PlayerPrefsManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/MicrophoneInput.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/NoteIdentifier.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/AudioVisualizer.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/OptionsController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Rotate.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -1,14 +1,32 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class AudioVisualizer : MonoBehaviour {
 		
 	public Transform[] audioSpectrumObjects;
-	public float heightMultiplier;
-	public int numberOfSamples = 1024;
+	[Range(1, 100)] public float heightMultiplier;
+	[Range(64, 8192)] public int numberOfSamples = 1024; //step by 2
 	public FFTWindow fftWindow;
 	public float lerpTime = 1;
-	
+	public Slider sensitivitySlider;
+
+	/*
+	 * The intensity of the frequencies found between 0 and 44100 will be
+	 * grouped into 1024 elements. So each element will contain a range of about 43.06 Hz.
+	 * The average human voice spans from about 60 hz to 9k Hz
+	 * we need a way to assign a range to each object that gets animated. that would be the best way to control and modify animatoins.
+	*/
+
+	void Start(){
+
+		heightMultiplier = PlayerPrefsManager.GetSensitivity ();
+
+		sensitivitySlider.onValueChanged.AddListener(delegate {
+			SensitivityValueChangedHandler(sensitivitySlider);
+		});
+	}
+
 	void Update() {
 
 		// initialize our float array
@@ -34,6 +52,10 @@ public class AudioVisualizer : MonoBehaviour {
 			audioSpectrumObjects[i].localScale = newScale;
 
 		}
+	}
+
+	public void SensitivityValueChangedHandler(Slider sensitivitySlider){
+		heightMultiplier = sensitivitySlider.value;
 	}
 
 }
